@@ -1,0 +1,130 @@
+.xindanfooter{
+    // background: skyblue;
+    .cont{
+        height:460px;
+        .footer_top{
+            padding:50px 0 0 15px;
+            height: 235px;
+            width: 1200px;
+            // background:yellow;
+            .foot_list{
+                float: left;
+                width: 17.64%;
+                padding-right: 1%;
+                margin-left: 1.5%;
+                height: 185px;
+                display: inline;
+                border-right: 1px solid #dbdbdb;
+                &:nth-child(2){
+                    i{
+                        background: url("../img/footer.gif") 0 -35px no-repeat;
+                        }
+                    }
+                 &:nth-child(3){
+                    i{
+                        background: url("../img/footer.gif") 0 -115px no-repeat;
+                        }
+                    }
+                
+                &:nth-child(4){
+                    i{
+                        background: url("../img/footer.gif") 0 -152px no-repeat;
+                        }
+                    }
+                
+                &:nth-child(5){
+                    // border-right: none;
+                    i{  
+                        width: 20px;
+                        height: 23px;
+                        background: url("../img/footer.gif") 0 -190px no-repeat;
+                        }
+                    }
+                
+                }
+               
+                h4{
+                    text-indent:20px;
+                    font-weight:bold;
+                    position: relative;
+
+                    
+                    i{
+                        display: block;
+                        width: 25px;
+                        height: 23px;
+                        position: absolute;
+                        top:0px;
+                        left:-10px;
+                        background: url("../img/footer.gif") 0 0 no-repeat;     
+                    }
+                }
+                .footer_ul_list{
+                    padding: 10px 0 0 16px;
+                    li{
+                        // list-style: square;
+                        a{
+                            color:#666666;
+                            font-size:12px;
+                            &:hover{
+                                 text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+        }
+        .footer_bot{
+              padding: 80px 0 30px;
+              height: 222px;
+              // background: red;
+              text-align:center;
+              ul{
+                    display:block;
+                    float: left;
+                    margin:0 280px;
+                    li{
+                        float: left;
+                        &:nth-child(2){
+                            a{
+                                background-position:0 -91px;
+                            }
+                        }
+                        &:nth-child(3){
+                            a{
+                                background-position:0 -275px;
+                            }
+                        }
+                        &:nth-child(4){
+                            a{
+                                background-position:0 -326px;
+                            }
+                        }
+                        &:nth-child(5){
+                            a{
+                                background-position:0 -375px;
+                            }
+                        }
+                        a{
+                            margin-right:5px;
+                            display: inline-block;
+                            background: url("../img/foot_img.png") no-repeat;
+                            height: 46px;
+                            width:123px;
+                           
+                            }
+
+                    }
+                }
+                p{
+                    a{
+                        margin:0 10px;
+                        color:#666666;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }  
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.tab_left {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 178px;
+}
+
+.tab_left header {
+  /*padding-bottom:2px;*/
+  /*border-bottom:1px solid #ddd;*/
+  overflow: hidden;
+}
+
+.tab_left header div {
+  float: left;
+  border: 1px solid #ddd;
+  width: 88px;
+  float: left;
+  height: 30px;
+  background: #F6F6F6;
+  color: #ccc;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tab_left header div:hover {
+  border: none;
+}
+
+.tab_left .content div ul li {
+  padding: 11px 5px 0;
+  width: 178px;
+  height: 78px;
+  border-bottom: 1px solid #ccc;
+}
+
+/*.tab .content div ul li:last-child(){
+            border-bottom: 1px solid #fff;
+        }*/
+.tab_left .content div ul li .listTab_left_a {
+  margin-top: 5px;
+  /*width: 30px;*/
+  height: 50px;
+  display: inline-block;
+  float: left;
+}
+
+.tab_left .content div ul li .listTab_left_a img {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+}
+
+.tab_left .content div ul li .listTab_left_a:hover {
+  text-decoration: underline;
+}
+
+.tab_left .content div ul li p {
+  font-size: 12px;
+  width: 127px;
+  overflow: hidden;
+  /*margin: 4px 0 14px 0;*/
+  /*float: left;*/
+  padding-left: 5px;
+}
+
+.tab_left .content div ul li p .listTab_left_a1 {
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin: 4px 0;
+  color: #666;
+  text-decoration: none;
+}
+
+.tab_left .content div ul li .priceline {
+  color: #f60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tab_left .active {
+  background-color: #fff;
+  color: #FF6600;
+  border-color: #fff;
+}
+
+.tab_left .content {
+  /*min-height: 100px;*/
+  overflow: hidden;
+  width: 178px;
+  padding: 5px 0px 0;
+}

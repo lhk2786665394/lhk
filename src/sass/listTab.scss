@@ -1,0 +1,85 @@
+.listtab {
+  border: 1px solid #ddd;
+  width: 1010px;
+  overflow: hidden;
+}
+
+.listtab header {
+    /*padding-bottom:2px;*/
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    background-color: #FDF9D4;
+    padding-left: 15px;    
+}
+
+.listtab header div {
+  float: left;
+
+  height: 30px;
+  font-weight: bold;
+  background: #F6F6F6;
+  color: #ccc;
+  line-height: 23px;
+  text-align: center;
+  font-size: 14px;
+    padding: 4px 15px 0 15px;
+    margin: 7px 0 0 0;
+    border: 1px solid #ddd;
+    border-bottom:none;
+}
+
+
+
+.listtab .content_right div ul li {
+  padding: 10px 18px 10px 18px;
+  float: left;
+    width: 25%;
+}
+
+.listtab .content_right div ul li a img {
+  width: 150px;
+  height: 108px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.listtab .content_right div ul li a:hover {
+  text-decoration: underline;
+}
+
+.listtab .content_right div ul li p {
+  font-size: 12px;
+  /*width: 150px;*/
+  overflow: hidden;
+  margin: 4px 0 14px 0;
+}
+
+.listtab .content_right div ul li p a {
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin: 4px 0;
+  color: #666;
+  text-decoration: none;
+  /*width: 150px;*/
+}
+
+.listtab .content_right div ul li .priceline {
+  color: #f60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.listtab .active {
+  background-color: #fff;
+  color: #FF6600;
+}
+
+.listtab .content_right {
+  /*min-height: 100px;*/
+  overflow: hidden;
+  width: 1010px;
+  height: 250px;
+  padding: 30px 10px 0;
+}

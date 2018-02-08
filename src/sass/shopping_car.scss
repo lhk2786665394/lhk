@@ -1,0 +1,303 @@
+#header{
+    #topbar{
+        // display:none;
+
+    }
+    .wrapper{
+        margin-top:20px;
+        .head_title{
+            display:none;
+        }
+        
+    }
+}
+#body{
+    border-top: 1px solid #ededed;
+    margin-top:20px;
+    .cont{
+        height: 400px;
+        width: 980px;
+        // background: pink;
+        padding-top:80px;
+        position: relative;
+        
+        .pabsolute{
+            width: 711px;
+            left: 50%;
+            // background: #ccc;
+            position: absolute;
+            
+            margin-left: -357px;
+            height: 60px;
+            z-index: 10;
+            top:-16px;
+            &:nth-child(2){
+
+            }
+            .stepmark{
+                &:nth-child(1){
+                        span{
+                         background-position: 0 0;
+                        }
+                    }
+                width: 237px;
+                text-align: center;
+                span{
+                    background-image: url(../img/shopping_car.jpg);
+                    background-repeat: no-repeat;
+                    background-position: 0 -19px;
+                    display: block;
+                    vertical-align: middle;
+                    height: 19px;
+                    width: 28px;
+                    margin: 5px auto 12px auto;
+                    
+                }
+                div{
+                    font-size:12px;
+                }
+
+            }
+        }
+        .shoppingTable{
+            // border:1px solid #ccc;
+            // height: 277px;
+            // 
+            font-size:14px;
+            float: left;
+            .shoppingTable_left{
+                width: 781px;
+                padding:5px;
+                font-size: 14px;
+                float: left;
+                dl{
+
+                    dt{
+                        text-indent:12px;
+                        height: 32px;
+                        font-weight: bold;
+                        border:1px solid #ccc;
+                        line-height: 32px;
+
+                    }
+                    .car_list_top{
+                        border:1px solid #ccc;
+                        div{
+                            // line-height: 32px;
+                            padding:5px 0;
+                            display:inline-block;
+
+                        }
+                        .choose{
+                            width:60px;
+                            
+                            input{
+                                height: 13px;
+                                width: 13px;
+                                margin: 0 4px 0 10px;
+                            }
+                            
+                        }
+                        .spoppingname{
+                            width: 360px;
+                        }
+                        .shoppingprice{
+                            width: 95px;
+                        }
+                        .shoppingqty{
+                            width: 70px;
+                        }
+                        .shoppingtotal{
+                            width: 96px;
+                        }
+                        .chaozuo{
+                            width: 67px;
+                        }
+                    }
+                    .car_list_cont{
+                        // padding-top: 20px;
+                        float: left;
+                        ul{
+                            float: left;
+
+                            li{
+                                width:771px;
+                                padding-top: 20px;
+                                font-size:12px;
+                                color:#666;
+                                float: left;
+                                border:1px solid #ccc;
+                                #checkbox{
+                                    margin:30px 20px 40px 30px;
+                                    float: left;
+                                }
+                                .list_box{
+                                    margin-bottom: 20px;
+                                    width: 360px;
+                                    float: left;
+                                    
+
+                                   img{
+                                    width: 80px;
+                                    height: 60px;
+                                     float: left;
+                                   }
+                                   .list_box_name{
+                                        margin-left: 5px;
+                                        // margin-bottom: 20px;
+                                        width: 265px;
+                                         float: left;
+                                         a{
+                                            color:#666;
+                                            &:hover{
+                                                text-decoration: underline;
+                                                color:#F60;
+
+                                            }
+                                         }
+                                   }
+                               }
+                               .pirce{
+                                    display:inline-block;
+                                    padding: 25px 15px 40px 10px;
+                                    float: left;
+                                    font-size:14px;
+                               }
+                               .qty_box{
+                                    float: left;
+                                    width: 70px;
+                                    // height:30px;
+                                    padding-top:20px;
+
+                                        #qty{
+                                            width: 40px;
+                                            height: 32px;
+                                            float: left;
+                                            text-align: center;
+                                            line-height: 40px;
+                                            border:1px solid #ccc;
+                                            // background-color: #ccc;
+                                            // margin-bottom:10px;
+                                        }
+                                        i{
+                                           display:inline-block;
+                                           border:1px solid #ccc;
+                                           width: 16px;
+                                           height: 16px;
+                                           line-height: 14px;
+                                           margin: 0;
+                                           padding:0;
+                                           text-align:center;
+                                           float: left;
+
+                                        }
+                               }
+                               .chaozuo_box{
+                                    display:inline-block;
+                                    padding: 15px 15px 18px 5px;
+                                    float: right;
+                                    button{
+                                           display:block;
+                                           margin-bottom:5px;
+                                           text-align:right;
+
+                                    }
+                                    
+
+                               }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .shoppingTable_right{
+                margin-top:5px;
+                float: left;
+                background-color: rgb(255, 255, 204);
+                padding:5px 10px;
+                border: 1px solid #ccc;
+
+                .shoppingTable_right_top{
+                        width: 170px;
+                        height: 32px;
+                        // border:1px solid #ccc;
+                        
+                        border-bottom: 1px solid #ccc;
+                        line-height: 32px;
+                        text-indent:20px;
+                        font-weight:bold;
+                }
+                .shoppingTable_right_bot{
+                    width:100%;
+                    height:186px;
+                    // border: 1px solid #ccc;
+                    p{
+                        margin-top:20px;
+                        a{
+                            float: right;
+                            font-weight:bold;
+                            color:#F60;
+                        }
+                        
+                    }
+                    .jiesuan{
+                        // float: left;
+                        margin-top: 15px;
+                        a{
+                            display:block;
+                            background-color: #f7661f;
+                            border: 1px solid #f7661f;
+                            font-size:18px;
+                            padding: 0 14px;
+                            height: 46px;
+                            border-radius: 2px;
+                            color:#fff;
+                            line-height: 46px;
+                            text-align:center;
+
+                        }
+                    }
+                    .lianjie{
+                        padding-top:20px;
+                        width:100%;
+                        height:30px;
+                        float: left;
+                        a{
+                            display: inline-block;
+                            font-size:12px;
+                            // color:#666;
+                            float: left;
+                            &:nth-child(2){
+                                float: right;
+
+                            }
+
+                        }
+                    }
+
+
+
+                }
+
+            }
+            
+        }
+
+    }
+}
+
+// 底部
+#footer{
+    float: left;
+    .footer_top{
+        display:none;
+    }
+    .footer_bot{
+        ul{
+            display:none;
+
+        }
+    }
+    
+}

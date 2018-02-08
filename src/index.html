@@ -1,9 +1,948 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>新蛋中国</title>
         <meta charset="utf-8">
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="lib/jquery.lxCarousel/jquery.lxCarousel.js"></script>
+        <link rel="stylesheet" type="text/css" href="lib/jquery.lxCarousel/jquery.lxCarousel.css" />
+
+        <!-- <script type="text/javascript" src="js/shoufengqin.js"></script> -->
+ 
+        <link rel="stylesheet" type="text/css" href="css/bacs.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/head.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="css/shoufengqin.css" />
+        <link rel="stylesheet" type="text/css" href="css/tab.css" />
+        <link rel="stylesheet" type="text/css" href="css/haitao.css" />
     </head>
+
     <body>
-    6666699
+        <!-- 头部  logo  导航栏 -->
+        <div id="header">
+            
+            
+        </div>
+        <!-- 内容 -->
+        <div id="body" class="clearfix">
+            <div class="cont">
+                <!-- 轮播图部分 -->
+                <div class="benner clearfix">
+                    
+                    <div class="benner_left">
+                        <div class="benner_top">
+                            
+                        </div>
+                        <div class="benner_bot"></div>
+                    </div>
+                    <div class="benner_right">
+                        <div class="benner_right_top"></div>
+                        <div class="benner_right_bot">
+                            <a href=""><img src="../img/benner_right_1.jpg" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 热卖区 -->
+                <div class="hot">
+                    <div class="cont">
+                        <div class="hot_left">
+                            <div class="hot_left_top"><h2>热卖区</h2>
+                                <p><a href="">换一批<i></i></a>
+                                <span>热卖促销商品，不容错过，更多惊喜等你发现</span></p>
+                            </div>
+                            <div class="hot_left_bot">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                        <img src="img/hot-1.jpg" alt="" />
+                                        <p><a href="">ROCCAT 冰豹 Ryos MK Glow USB Mechanical Gaming Keyboard</a></p>
+                                        </a>
+                                        <p class="p_pay">
+                                        <del>￥749</del><br>
+                                        <span>￥379</span>
+                                    </p>
+                                    <a href="" id="a_buy">抢购</a> 
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                        <img src="img/hot-1.jpg" alt="" />
+                                        <p><a href="">ROCCAT 冰豹 Ryos MK Glow USB Mechanical Gaming Keyboard</a></p>
+                                        </a>
+                                        <p class="p_pay">
+                                        <del>￥749</del><br>
+                                        <span>￥379</span>
+                                    </p>
+                                    <a href="" id="a_buy">抢购</a> 
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                        <img src="img/hot-1.jpg" alt="" />
+                                        <p><a href="">ROCCAT 冰豹 Ryos MK Glow USB Mechanical Gaming Keyboard</a></p>
+                                        </a>
+                                        <p class="p_pay">
+                                        <del>￥749</del><br>
+                                        <span>￥379</span>
+                                    </p>
+                                    <a href="" id="a_buy">抢购</a> 
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                        <img src="img/hot-1.jpg" alt="" />
+                                        <p><a href="">ROCCAT 冰豹 Ryos MK Glow USB Mechanical Gaming Keyboard</a></p>
+                                        </a>
+                                        <p class="p_pay">
+                                        <del>￥749</del><br>
+                                        <span>￥379</span>
+                                    </p>
+                                    <a href="" id="a_buy">抢购</a> 
+                                    </li>
+
+
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="hot_right">
+                            <div class="news">
+                                <dl>
+                                    <dt><h5 class="fl">新蛋动态</h5><a href="" target="_blank">更多&gt;&gt;</a></dt>
+                                    <dd><a href="" target="_blank">2018年春节物流情况通知</a><span class=""></span></dd>
+                                </dl>
+                            </div>
+                            <div class="hot_right_bot">
+                                
+                            </div>
+                            
+                        </div>
+                    </div> 
+                </div>
+                <!-- 好评区 -->
+                <div class="good_reputation">
+                    <div class="cont">
+                        <div class="good_top">
+                            <h2>好评热品</h2>
+                                        <p>
+                                        <span>热门好评商品，不要错过哦</span></p>
+                        </div>
+                         <div class="good_bot">
+                             
+                         </div>
+
+
+                    </div>
+                </div>
+
+                <!-- tab切换 -->
+                <div id="interest">
+                    <div class="cont">
+                        <div class="interest_tab"></div>
+                        <!-- 轮播图 -->
+                        <div class="interest_right"></div>
+                    </div>
+                </div>
+                <!-- 海淘 -->
+                <div class="haitao">
+                    <div class="haitao_box">
+                        <div class="haitao_box_left">
+                            <h2>海淘推荐</h2>
+                            <div class="haitao_box_bot">
+                                <!-- <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del><i>￥</i>679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div>
+                                <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del>¥679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div>
+                                <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del>¥679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div>
+                                <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del>¥679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div>
+                                <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del>¥679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div>
+                                <div class="haitao_list">
+                                    <a href="">
+                                        <img src="../img/benner1.jpg" alt="" />
+
+                                    </a>
+                                    <p class="title">
+
+                                         <a target="_blank" title="" href=""><img  alt="" height="12px" width="65px" src="../img/haitaologo.png">
+                                         Philips 飞利浦 SHB5950WT/27 运动蓝牙耳机 白色
+                                         </a>
+                                    </p>
+                                    <p class="priceline">
+                                     
+                                        <del>¥679.00</del> 
+                                     
+                                     <span class="price">¥189.00</span>
+                                 </p>
+                                </div> -->
+                                
+                            </div>
+                            <ul class="cls">
+                                <li><a href="" class="a_logo1"><img src="../img/a_logo1.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo2"><img src="../img/a_logo2.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo3"><img src="../img/a_logo3.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo4"><img src="../img/a_logo4.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo5"><img src="../img/a_logo5.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo6"><img src="../img/a_logo6.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo7"><img src="../img/a_logo7.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo8"><img src="../img/a_logo8.jpg" alt="" /></a></li>
+                            </ul>
+                                <!-- 轮播图 -->
+                                <div class="haitaolunbo">
+                                    
+                                </div>
+                            <div class="haitaolunbo haitaolunbo2">
+                                    
+                                </div>
+
+                        </div>
+                        <div class="haitao_box_right">
+                            <div id="tab">
+
+                            <header>
+                            <h3>热销榜</h3>
+                                <div>您也许</div>
+                                <div>新品</div>
+                                <div>发烧</div>
+
+
+                            </header>
+
+                            <div id="content">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="../img/benner1.jpg"></a>
+                                            <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                            <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- 手机 • 摄影 -->
+                <div class="haitao">
+                    <div class="haitao_box">
+                        <div class="haitao_box_left">
+                            <h2>手机 • 摄影</h2>
+                            <div class="haitao_box_bot shouiji_box">
+                               
+                                
+                            </div>
+                            <ul class="cls">
+                                <li><a href="" class="a_logo1"><img src="../img/a_logo1.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo2"><img src="../img/a_logo2.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo3"><img src="../img/a_logo3.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo4"><img src="../img/a_logo4.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo5"><img src="../img/a_logo5.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo6"><img src="../img/a_logo6.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo7"><img src="../img/a_logo7.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo8"><img src="../img/a_logo8.jpg" alt="" /></a></li>
+                            </ul>
+                                <!-- 轮播图 -->
+                                <div class="haitaolunbo">
+                                    
+                                </div>
+                            <div class="haitaolunbo shoujisheying">
+                                    
+                                </div>
+                        </div>
+                        <div class="haitao_box_right">
+                            <div id="tab">
+
+                            <header>
+                            <h3>热销榜</h3>
+                                <div>您也许</div>
+                                <div>新品</div>
+                                <div>发烧</div>
+
+
+                            </header>
+                            <div id="content">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="../img/benner1.jpg"></a>
+                                            <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                            <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- 电脑 • 平板 -->
+                <div class="haitao">
+                    <div class="haitao_box">
+                        <div class="haitao_box_left">
+                            <h2>电脑 • 平板</h2>
+                            <div class="haitao_box_bot pingban">
+                                
+                            </div>
+                            <ul class="cls">
+                                <li><a href="" class="a_logo1"><img src="../img/a_logo1.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo2"><img src="../img/a_logo2.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo3"><img src="../img/a_logo3.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo4"><img src="../img/a_logo4.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo5"><img src="../img/a_logo5.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo6"><img src="../img/a_logo6.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo7"><img src="../img/a_logo7.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo8"><img src="../img/a_logo8.jpg" alt="" /></a></li>
+                            </ul>
+                                <!-- 轮播图 -->
+                                <div class="haitaolunbo pingbandiannao">
+                                    
+                                </div>
+                        </div>
+                        <div class="haitao_box_right">
+                            <div id="tab">
+
+                            <header>
+                            <h3>热销榜</h3>
+                                <div>您也许</div>
+                                <div>新品</div>
+                                <div>发烧</div>
+
+
+                            </header>
+                            <div id="content">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="../img/benner1.jpg"></a>
+                                            <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                            <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- 家用 • 生活电器 -->
+                <div class="haitao">
+                    <div class="haitao_box">
+                        <div class="haitao_box_left">
+                            <h2>家用 • 生活电器 </h2>
+                            <div class="haitao_box_bot">
+                                
+                                
+                            </div>
+                            <ul class="cls">
+                                <li><a href="" class="a_logo1"><img src="../img/a_logo1.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo2"><img src="../img/a_logo2.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo3"><img src="../img/a_logo3.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo4"><img src="../img/a_logo4.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo5"><img src="../img/a_logo5.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo6"><img src="../img/a_logo6.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo7"><img src="../img/a_logo7.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo8"><img src="../img/a_logo8.jpg" alt="" /></a></li>
+                            </ul>
+                                <!-- 轮播图 -->
+                                <div class="haitaolunbo jiadian">
+                                    
+                                </div>
+                        </div>
+                        <div class="haitao_box_right">
+                            <div id="tab">
+
+                            <header>
+                            <h3>热销榜</h3>
+                                <div>您也许</div>
+                                <div>新品</div>
+                                <div>发烧</div>
+
+
+                            </header>
+                            <div id="content">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="../img/benner1.jpg"></a>
+                                            <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                            <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <!-- 生活 • 百货 -->
+                <div class="haitao">
+                    <div class="haitao_box">
+                        <div class="haitao_box_left">
+                            <h2>生活 • 百货 </h2>
+                            <div class="haitao_box_bot shenghuo_box">
+                               
+                            </div>
+                            <ul class="cls">
+                                <li><a href="" class="a_logo1"><img src="../img/a_logo1.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo2"><img src="../img/a_logo2.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo3"><img src="../img/a_logo3.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo4"><img src="../img/a_logo4.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo5"><img src="../img/a_logo5.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo6"><img src="../img/a_logo6.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo7"><img src="../img/a_logo7.jpg" alt="" /></a></li>
+                                <li><a href="" class="a_logo8"><img src="../img/a_logo8.jpg" alt="" /></a></li>
+                            </ul>
+                                <!-- 轮播图 -->
+                                <div class="haitaolunbo shenghuo">
+                                    
+                                </div>
+                        </div>
+                        <div class="haitao_box_right">
+                            <div id="tab">
+
+                            <header>
+                            <h3>热销榜</h3>
+                                <div>您也许</div>
+                                <div>新品</div>
+                                <div>发烧</div>
+
+
+                            </header>
+                            <div id="content">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="../img/benner1.jpg"></a>
+                                            <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                            <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner1.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner3.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                        
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+
+                                        <li><a href=""><img src="../img/benner2.jpg"></a>
+                                        <p class="title"><a target="_blank" href="1">华为 荣耀9 全网通 高配版 6GB+64GB 海鸥灰 移动联通</a></p>
+                                        <p class="priceline"> <span class="price">¥2166.00</span></p>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </div>
+        <!-- 二维码 -->
+        <div id="erweima">
+            <div class="cont">
+                <img src="img/erweima.png" height="196" width="1201" alt="" />
+                
+            </div>
+            </div>
+        <div id="footer">
+            
+        </div>
     </body>
+
 </html>

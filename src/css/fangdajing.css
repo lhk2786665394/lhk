@@ -1,0 +1,30 @@
+.box {
+  width: 490px;
+  height: 547px;
+  padding-top: 57px;
+}
+
+.goods img {
+  width: 450px;
+  height: 338px;
+  border: 1px solid #ccc;
+}
+
+.smallList {
+  margin-top: 20px;
+}
+
+.smallList img {
+  width: 80px;
+  height: 60px;
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+.gds-zoom-big img {
+  min-width: 1000px;
+}
+
+.smallList .active {
+  border: 4px solid orange;
+}

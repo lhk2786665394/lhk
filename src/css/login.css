@@ -1,0 +1,127 @@
+#header_top .enroll_block {
+  display: none;
+}
+
+#body {
+  background: #E3E3E3;
+  padding: 44px 0px;
+  margin-top: 110px;
+}
+
+#body .cont {
+  overflow: hidden;
+  width: 980px;
+}
+
+#body .cont a:hover {
+  text-decoration: underline;
+}
+
+#body .cont a {
+  float: left;
+}
+
+#body .cont a img {
+  height: 362px;
+  width: 478;
+}
+
+#body .cont .logoin_r {
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 20px;
+  width: 380px;
+}
+
+#body .cont .logoin_r .logoin_r_top {
+  float: left;
+  padding: 0 25px 15px 30px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_title {
+  height: 21px;
+  margin-bottom: 23px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_title h3 {
+  float: left;
+  font-size: 18px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_title a {
+  float: right;
+  font-size: 14px;
+  color: #039;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_form li {
+  height: 57px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_form li:nth-child(2) span {
+  background-position: 0 -59px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_form li span {
+  background: url(../img/login_icon.png) no-repeat center;
+  width: 30px;
+  height: 33px;
+  display: inline-block;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_form li input {
+  width: 250px;
+  margin-left: -4px;
+  height: 31px;
+  border: 1px solid #CFCFCF;
+  line-height: 30px;
+  text-indent: 5px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_oper {
+  margin: 0 auto;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_oper .logoin_oper_a1 {
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 73px;
+  color: #039;
+  height: 12px;
+  font-size: 12px;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_oper .logoin_oper_a1:nth-child(1) {
+  float: left;
+}
+
+#body .cont .logoin_r .logoin_r_top .logoin_oper .login_now {
+  text-align: center;
+  margin-top: 15px;
+  width: 240px;
+  margin-left: 20px;
+  padding: 0 19px;
+  font-weight: bolder;
+  font-weight: bolder;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f7661f;
+  border: 1px solid #f7661f;
+}
+
+#body .cont .logoin_r .logoin_bottom {
+  color: #666;
+  padding: 16px 25px 0 30px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.footer_top {
+  display: none;
+}

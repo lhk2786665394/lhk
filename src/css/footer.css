@@ -1,0 +1,115 @@
+.xindanfooter .cont {
+  height: 460px;
+}
+
+.xindanfooter .cont .footer_top {
+  padding: 50px 0 0 15px;
+  height: 235px;
+  width: 1200px;
+}
+
+.xindanfooter .cont .footer_top .foot_list {
+  float: left;
+  width: 17.64%;
+  padding-right: 1%;
+  margin-left: 1.5%;
+  height: 185px;
+  display: inline;
+  border-right: 1px solid #dbdbdb;
+}
+
+.xindanfooter .cont .footer_top .foot_list:nth-child(2) i {
+  background: url("../img/footer.gif") 0 -35px no-repeat;
+}
+
+.xindanfooter .cont .footer_top .foot_list:nth-child(3) i {
+  background: url("../img/footer.gif") 0 -115px no-repeat;
+}
+
+.xindanfooter .cont .footer_top .foot_list:nth-child(4) i {
+  background: url("../img/footer.gif") 0 -152px no-repeat;
+}
+
+.xindanfooter .cont .footer_top .foot_list:nth-child(5) i {
+  width: 20px;
+  height: 23px;
+  background: url("../img/footer.gif") 0 -190px no-repeat;
+}
+
+.xindanfooter .cont .footer_top h4 {
+  text-indent: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.xindanfooter .cont .footer_top h4 i {
+  display: block;
+  width: 25px;
+  height: 23px;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  background: url("../img/footer.gif") 0 0 no-repeat;
+}
+
+.xindanfooter .cont .footer_top .footer_ul_list {
+  padding: 10px 0 0 16px;
+}
+
+.xindanfooter .cont .footer_top .footer_ul_list li a {
+  color: #666666;
+  font-size: 12px;
+}
+
+.xindanfooter .cont .footer_top .footer_ul_list li a:hover {
+  text-decoration: underline;
+}
+
+.xindanfooter .cont .footer_bot {
+  padding: 80px 0 30px;
+  height: 222px;
+  text-align: center;
+}
+
+.xindanfooter .cont .footer_bot ul {
+  display: block;
+  float: left;
+  margin: 0 280px;
+}
+
+.xindanfooter .cont .footer_bot ul li {
+  float: left;
+}
+
+.xindanfooter .cont .footer_bot ul li:nth-child(2) a {
+  background-position: 0 -91px;
+}
+
+.xindanfooter .cont .footer_bot ul li:nth-child(3) a {
+  background-position: 0 -275px;
+}
+
+.xindanfooter .cont .footer_bot ul li:nth-child(4) a {
+  background-position: 0 -326px;
+}
+
+.xindanfooter .cont .footer_bot ul li:nth-child(5) a {
+  background-position: 0 -375px;
+}
+
+.xindanfooter .cont .footer_bot ul li a {
+  margin-right: 5px;
+  display: inline-block;
+  background: url("../img/foot_img.png") no-repeat;
+  height: 46px;
+  width: 123px;
+}
+
+.xindanfooter .cont .footer_bot p a {
+  margin: 0 10px;
+  color: #666666;
+}
+
+.xindanfooter .cont .footer_bot p a:hover {
+  text-decoration: underline;
+}

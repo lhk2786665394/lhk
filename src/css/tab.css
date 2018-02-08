@@ -1,0 +1,76 @@
+.tab {
+  border: 1px solid #ddd;
+  width: 958px;
+  overflow: hidden;
+}
+
+.tab header {
+  /*padding-bottom:2px;*/
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.tab header div {
+  float: left;
+  width: 239px;
+  float: left;
+  height: 30px;
+  background: #F6F6F6;
+  color: #ccc;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tab .content div ul li {
+  padding: 0 18px 10px 18px;
+  float: left;
+}
+
+.tab .content div ul li a img {
+  width: 150px;
+  height: 108px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.tab .content div ul li a:hover {
+  text-decoration: underline;
+}
+
+.tab .content div ul li p {
+  font-size: 12px;
+  width: 150px;
+  overflow: hidden;
+  margin: 4px 0 14px 0;
+}
+
+.tab .content div ul li p a {
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin: 4px 0;
+  color: #666;
+  text-decoration: none;
+  /*width: 150px;*/
+}
+
+.tab .content div ul li .priceline {
+  color: #f60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tab .active {
+  background-color: #fff;
+  color: #FF6600;
+}
+
+.tab .content {
+  /*min-height: 100px;*/
+  overflow: hidden;
+  width: 958px;
+  height: 238px;
+  padding: 30px 10px 0;
+}

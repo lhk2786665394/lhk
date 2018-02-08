@@ -1,0 +1,125 @@
+#header_top{
+    .enroll_block{
+        display:none;
+    }
+}
+#body{
+        background: #E3E3E3;
+        padding: 44px 0px;
+        margin-top:110px;
+        // float: left;
+        .cont{
+            a:hover{
+            text-decoration: underline;
+        }
+            overflow: hidden;
+            width: 980px;
+            a{
+                float: left;
+                img{
+                    height: 362px;
+                    width:478;
+                }
+            }
+            .logoin_r{
+                // width: 360px;
+                background: #FFF;
+                border: 1px solid #CCC;
+                
+                padding: 20px;
+                width: 380px;
+                .logoin_r_top{
+                    float: left;
+                    padding: 0 25px 15px 30px;
+                    .logoin_title {
+                        height: 21px;
+                        margin-bottom: 23px;
+                        h3{
+                            float: left;
+                            font-size:18px;
+                        }
+                        a{
+                            float: right;
+                            font-size:14px;
+                            color: #039;
+
+                        }
+                    }
+                .logoin_form{
+                    li{
+                        height: 57px;
+                        overflow: hidden;
+                        text-align: center;
+                        &:nth-child(2){
+                            span{
+                                    background-position: 0 -59px;
+                            }
+                        }
+                        span {
+                            background: url(../img/login_icon.png) no-repeat center;
+                            width: 30px;
+                            height: 33px;
+                            display: inline-block;
+                            background-position: 0 0;
+                            vertical-align: middle;
+                        }
+                        input{
+                                width: 250px;
+                                // vertical-align: middle;
+                                margin-left: -4px;
+                                height: 31px;
+                                    border: 1px solid #CFCFCF;
+                                // height: 30px;
+                                line-height: 30px;
+                                text-indent: 5px;
+                        }
+                    }
+
+                }
+                .logoin_oper{
+                    // float: left;
+                    margin:0 auto;
+                    .logoin_oper_a1{
+                        float: right;
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 73px;
+                        color: #039;
+                        height: 12px;
+                        font-size: 12px;
+                        &:nth-child(1){
+                        float: left;
+
+                        }
+                    }
+                    .login_now{ 
+                        text-align: center;
+                        margin-top: 15px;
+                        width: 240px;
+                        margin-left:20px;
+                        padding: 0 19px;
+                        font-weight: bolder;
+                        font-weight: bolder;
+                        font-size: 14px;
+                        height: 30px;
+                        line-height: 30px;
+                        background-color: #f7661f;
+                        border: 1px solid #f7661f;
+                            
+
+                    }
+                }
+                }
+                .logoin_bottom{
+                        color: #666;
+                        padding: 16px 25px 0 30px;
+                        overflow: hidden;
+                        zoom: 1;
+                }
+            }
+        }
+
+}
+.footer_top{
+    display:none;
+}

@@ -1,0 +1,318 @@
+.listpage_top{
+        background: #f0f0f0;
+        font-size: 12px;
+        color: #333;
+        a{
+                display: inline-block;
+                line-height: 29px;
+        }
+        span{
+                padding: 0 5px;
+        }
+
+}
+.listpage_cont{
+        margin: 5px 0 10px 0;
+        // height: 1110px;
+        // 列表也的左边
+        .mian_left{
+            width: 179px;
+            // height: 900px;
+            // background: #ccc;
+            float: left;
+            // 列表页左边的二级导航
+            .mian_left_top{
+                border: 1px solid #F3CE76;
+                margin-bottom:15px;
+                li{
+                    height: 25px;
+                    // background:#FFF9EB;
+                    padding: 7px 0 0 0;
+                    border-bottom: 1px #F0E2C2 solid;
+                    height: 34px;
+                    background: #FFF9EB url("../img/icon_navLevel1.gif") no-repeat 163px 16px;
+                    border-bottom: 1px #F0E2C2 solid;
+                    height: 34px;
+                    padding: 0;
+                    margin: 0;
+                    &:nth-child(1){
+                            background: #ffdc93;
+                            h3{
+                                font-weight: bold;
+                            }
+                    }
+                    &:hover{
+                        background: #ffdc93;
+                    }
+                    h3{
+                        margin-left: 28px;
+                        font-size: 14px;
+                        color: #845400;
+                    }
+                    a{
+                        font-size: 14px;
+                        color: #845400;
+                        line-height: 22px;
+                        display: inline-block;
+                        span{
+                            padding-left: 34px;
+                            float: left;
+                            padding-bottom: 6px;
+                            cursor: default;
+                        }
+                    }
+                }
+                
+            }
+            // 列表页左边的tab下面的图片链接
+            .listpage_left_img{
+                margin-top:10px;
+                a{
+                    img{ 
+                        height:97px; 
+                        width:179px;}
+                }
+            }
+            .ctnerI{
+                margin-top: 10px;
+                border:1px solid #ccc;
+                .ctnerT {
+                    margin-top: 10px;
+                    height: 28px;
+                    overflow: hidden;
+                    background: #FFF;
+                    // border: 1px solid #DEDEDE;
+                    // border-bottom: 0;
+                    padding: 0 11px;
+                    h3{
+                        font-weight:bold;
+
+                    }
+                    
+
+                }
+                .ctnerBody {
+                    // border: 1px solid #DEDEDE;
+                    border-top: 0;
+                    padding: 8px 13px;
+                    height: 1%;
+                    overflow: hidden;
+                    font-size: 12px;
+                    h3 {
+                        
+                        font-weight:bold;
+                        color:green;
+                    }
+                    ul{
+                        margin-top: 8px;
+                        li{
+                            clear: both;
+                            padding: 0 0 9px 0;
+                            float: left;
+                            display: inline;
+                            width: 100%;
+                            margin: 0;
+                            label{
+                                padding: 0;
+                                float: left;
+                                line-height: 16px;
+                                cursor: pointer;
+                                width: 100%;
+                                input{
+                                        padding: 0;
+                                        float: left;
+                                        vertical-align: middle;
+                                        width: 20px;
+                                        height: 16px;
+                                }
+                                span{
+                                        float: left;
+                                        width: 80%;
+                                        margin-left: 3px;
+                                        padding-top: 0;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .ctnerBot{
+                        padding: 6px 0;
+                        background: #F7F7F7;
+                        margin: 0 auto;
+                        border: 1px solid #DEDEDE;
+                        border-top: none;
+                        height: 1%;
+                        overflow: hidden;
+                        font-size:12px;
+                        p{
+                            .egg_btns_org {
+                                    background-color: #f7661f;
+                                    border: 1px solid #f7661f;
+                                    padding: 0 10px;
+                                    height: 25px;
+                                    line-height: 25px;
+                                    font-size:14px;
+                                    color: #fff;
+                                    text-align: center;
+                                    display: inline-block;
+                                    border-radius: 2px;
+                                    margin-left:30px;
+                                    &:hover{
+                                            background-color: #ff971c;
+                                            border: 1px solid #ff971c;
+                                    }
+
+                            }
+                            .funcLink{
+                                    margin: 4px 0 0 12px;
+                                    &:hover{
+                                        color: #ff971c;
+                                    }
+                            }
+                        }   
+                }
+            }
+        }
+        .main_right{
+            width:1010px;
+            // height: 1110px;
+            
+            float: right;
+            // background: pink;
+            margin-bottom:10px;
+            .mian_left_top_a{      
+                display:block;
+                width: 76.3%;
+                height: 210px;    
+                background-image: url("../img/page_logo.jpg");
+            }
+            .listTab{
+                margin-top:10px;
+            }
+            
+            .main_right_bot{
+
+                .main_right_bot_list{
+                        float: left;
+
+
+                
+                        .haitao_list{
+                        // height: 205px;
+                        padding: 25px 15px 1px 15px;
+                        width: 250px;
+                        float: left;
+                        overflow: hidden;
+                        font-size:12px;
+                        a{
+                            img{
+                                width: 144px;
+                                height: 108px;
+                                display: block;
+                                margin: 0 auto;
+                                overflow: hidden;
+
+
+                            }
+                        }
+                        .title{
+                            height: 35px;
+                            overflow: hidden;
+                            word-wrap: break-word;
+                            word-break: break-all;
+                            margin: 4px 0;
+                            a{
+                                color: #666;
+                                float: left;
+                                img{
+                                    height: 12px;
+                                    width: 65px;
+                                    float: left;
+                                    margin:2px 5px 0 0;
+                                }
+
+
+                            }
+                        }
+                        .pingfen{
+                            float: left;
+                            width:100%;
+                            span{
+                                display:inline-block;
+                                width:65px;
+                                margin-top:2px;
+                                height: 14px;
+                                float: left;
+                                background: url(../img/haitaologo.png) no-repeat;
+                                
+                            }
+                            a{
+                                line-height: 16px;
+                                padding:10px;
+
+                            }
+                        }
+                        .priceline{
+                            span{
+                                    color: #f60;
+                                    font-size: 14px;
+                                    
+                                    font-weight: bold;
+                            }
+                        }
+                        .listbuy{
+                                margin-top: 15px;
+                                text-align: center;
+                                // background: pink;
+                                float: left;
+                                width:100%;
+                                text-align:center;
+                            a{
+                                
+                                color: #ccc;
+                                text-align: center;
+                                display: inline-block;
+                                border-radius: 2px;
+                                vertical-align: top;
+                                    padding: 0 10px;
+                                height: 26px;
+                                float: left;
+                                line-height: 24px;
+                                border:1px solid #ccc;
+                                margin-left:20px;
+                                input{
+                                    margin-right:5px;
+                                }
+                                &:nth-child(1){
+                                    color: #fff;
+                                    background:#f7661f;
+                                }    
+
+                            }
+                        }
+                         }
+                }
+                #page{
+                    float: left;
+                    span{
+                        display:inline-block;
+                        margin:5px;
+                        width:40px;
+                        height:30px;
+                        line-height:1.8;
+                        text-align: center;
+                        background-color:#dfdfdf;
+                        color:#666;
+                        
+
+                    }
+                    .active{
+                            background-color:#fc0;
+                            color:#fff;
+                        }
+                }
+            }
+            
+        }
+}

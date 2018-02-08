@@ -1,0 +1,115 @@
+#top img {
+    width: 100%;
+}
+            
+            
+#main {
+    width: 100%;
+    height: 278px;
+    overflow:hidden;
+    // margin: 20px 10px;
+    ul li {
+        width: 177px;
+        height: 278px;
+        float: left;
+        position: relative;
+        border-left:1px solid #ccc;
+        background:#fff;
+        &:nth-child(1){
+            width:660px;    
+            /* style */
+        }
+        .good_box {
+            // width: 220px;
+            padding-top: 30px;
+            height: 275px;
+            .good_box_left{
+                float: left;
+                a{
+                    img{
+                        float: left;
+                        width: 250px;
+                        height: 239px;
+                        margin: 0 30px 10px 30px;
+                    }
+                }
+                
+            }
+            .good_box_right{
+                width: 338px;
+                float: left;
+                .good_box_tltie{
+                    color: #333;
+                    font-size:14px;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    width: 360px;
+                    background:#fff;
+                    strong{
+                        color: #f60;
+                    }
+                    a{
+                        color: #333;
+                        display: inline-block;
+                        font-size:14px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        vertical-align: top;
+                        width: 255px;     
+                    }
+                }
+                .hot_comment_text{
+                    font-size:14px;
+                    color: #676767;
+                    height: 123px;
+                    margin-bottom: 10px;
+                }
+                .good_box_right_bot{
+                        float: left;
+                        font-size: 12px;
+                        width:100%;
+                        .hot_egg_span1{
+                            padding-top: 4px;
+                            float: left;
+                            margin-bottom: 4px;
+                            .hot_a1{
+                                float: left;
+                                padding-left: 65px;
+                                height: 12px;
+                                line-height: 12px;
+                                display:block;
+                                background: url("../img/hot_a.gif") no-repeat left 0;
+                                
+                                color: #039;
+                            }
+                               
+                        }
+                        .good_box_right_bot_r{
+                            float: right;
+                            width: 158px;
+                            .fl{
+                                float: left;
+                                display: inline;
+
+                                p{
+                                    float: left;
+                                    width: 100px;
+                                    margin-right: 10px;
+                                    text-align: right;
+                                    color: #676767;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+                                img{
+                                    float: left;
+                                }
+                            }
+                        }     
+                }
+            }
+        }
+    }
+}
+            

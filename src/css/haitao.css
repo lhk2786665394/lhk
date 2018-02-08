@@ -1,0 +1,232 @@
+.haitao_box_left {
+  width: 960px;
+  float: left;
+  height: 525px;
+  position: relative;
+}
+
+.haitao_box_left a:hover {
+  text-decoration: underline;
+}
+
+.haitao_box_left h2 {
+  height: 38px;
+  padding-left: 10px;
+  color: #2565bd;
+  font-size: 20px;
+  font-weight: bold;
+  border-right: none;
+  line-height: 36px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 3px solid #2565bd;
+}
+
+.haitao_box_left .haitao_box_bot {
+  padding: 10px 10px 0;
+  overflow: hidden;
+  border: 1px solid #dadada;
+  border-top: none;
+  border-bottom: 1px solid #e9e9e9;
+  font-size: 12px;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list {
+  height: 205px;
+  padding: 25px 25px 1px 19px;
+  width: 222px;
+  float: left;
+  overflow: hidden;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list a img {
+  width: 144px;
+  height: 108px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list .title {
+  height: 35px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 4px 0;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list .title a {
+  color: #666;
+  float: left;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list .title a img {
+  height: 12px;
+  width: 65px;
+  float: left;
+  margin: 2px 5px 0 0;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list .priceline span {
+  color: #f60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.haitao_box_left .haitao_box_bot .haitao_list:nth-child(2) {
+  width: 480px;
+  height: 205px;
+  padding: 0;
+  margin: 0;
+}
+
+.haitao_box_left .cls {
+  padding: 6px 0 6px 3px;
+  overflow: hidden;
+  border: 1px solid #dadada;
+  border-top: none;
+}
+
+.haitao_box_left .cls li {
+  width: 119px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+}
+
+.haitao_box_left .cls li a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.haitao_box_left .cls li a:hover img {
+  margin-top: -40px;
+}
+
+.haitao_box_left .haitaolunbo {
+  position: absolute;
+  top: 45px;
+  left: 231px;
+  width: 480px;
+  height: 205px;
+  background: #ccc;
+  float: left;
+}
+
+.haitao_box_left .haitaolunbo .page {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.haitao_box_left .haitaolunbo .page span {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.haitao_box_left .haitaolunbo img {
+  width: 480px;
+  height: 205px;
+}
+
+.haitao_box_right #tab {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 230px;
+  float: right;
+  height: 512px;
+}
+
+.haitao_box_right #tab header h3 {
+  float: left;
+  width: 48px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.haitao_box_right #tab header {
+  /*padding-bottom:2px;*/
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.haitao_box_right #tab header div {
+  float: left;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 60px;
+  float: left;
+  height: 30px;
+  background: #F6F6F6;
+  color: #ccc;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.haitao_box_right #tab #content div ul li {
+  padding: 5px;
+  width: 230px;
+  height: 92px;
+}
+
+.haitao_box_right #tab #content div ul li a {
+  width: 110px;
+  height: 60px;
+  display: block;
+  float: left;
+}
+
+.haitao_box_right #tab #content div ul li a img {
+  width: 80px;
+  height: 60px;
+  display: block;
+  overflow: hidden;
+  float: left;
+}
+
+.haitao_box_right #tab #content div ul li a:hover {
+  text-decoration: underline;
+}
+
+.haitao_box_right #tab #content div ul li p {
+  font-size: 12px;
+  /*width: 100px;*/
+  overflow: hidden;
+  /*margin: 4px 0 14px 0;*/
+  float: left;
+}
+
+.haitao_box_right #tab #content div ul li p a {
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin: 4px 0;
+  color: #666;
+  text-decoration: none;
+}
+
+.haitao_box_right #tab #content div ul li .priceline {
+  color: #f60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.haitao_box_right #tab .active {
+  background-color: #fff;
+  color: #FF6600;
+}
+
+.haitao_box_right #tab #content {
+  /*min-height: 100px;*/
+  overflow: hidden;
+  width: 238px;
+  padding: 10px 5px 0;
+}

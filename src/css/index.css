@@ -1,0 +1,330 @@
+#header #nav .nav_top h2 .nav_list {
+  display: block;
+}
+
+.benner_left {
+  padding: 10px 0 20px 190px;
+  height: 480px;
+  float: left;
+}
+
+.benner_left .benner_top {
+  width: 771px;
+  height: 245px;
+  background: red;
+}
+
+.benner_left .benner_bot {
+  margin-top: 10px;
+  width: 771px;
+  height: 205px;
+  background: pink;
+}
+
+.benner_right {
+  width: 230px;
+  height: 480px;
+  float: right;
+}
+
+.benner_right .benner_right_top {
+  margin-top: 10px;
+  width: 230px;
+  height: 240px;
+  background: #ccc;
+}
+
+.benner_right .benner_right_top .page {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.benner_right .benner_right_top .page span {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+}
+
+.benner_right .benner_right_bot {
+  margin-top: 10px;
+  width: 230px;
+  height: 218px;
+  background: #217198;
+}
+
+.hot .cont {
+  height: 290px;
+}
+
+.hot .cont .hot_left {
+  padding: 10px 0 0 0;
+  width: 961px;
+  height: 48px;
+  float: left;
+}
+
+.hot .cont .hot_left .hot_left_top {
+  height: 38px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-right: none;
+  border-bottom: 3px solid #2565bd;
+  font-family: "microsoft yahei";
+  color: #f60;
+  border-bottom-color: #f60;
+}
+
+.hot .cont .hot_left .hot_left_top h2 {
+  float: left;
+}
+
+.hot .cont .hot_left .hot_left_top p {
+  height: 18px;
+  font-size: 14px;
+  float: left;
+  width: 880px;
+  margin: 7px 0 0 10px;
+}
+
+.hot .cont .hot_left .hot_left_top p a {
+  padding-left: 20px;
+  line-height: 18px;
+  position: relative;
+  color: #666666;
+}
+
+.hot .cont .hot_left .hot_left_top p a i {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/hot_flash.png") 0 2px no-repeat;
+  float: left;
+}
+
+.hot .cont .hot_left .hot_left_top p span {
+  float: right;
+  color: #666666;
+}
+
+.hot .cont .hot_left .hot_left_bot {
+  width: 960px;
+  height: 240px;
+  border: 1px solid #ccc;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li {
+  padding: 10px 19px 16px;
+  height: 230px;
+  width: 238px;
+  color: #666666;
+  font-size: 12px;
+  float: left;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li img {
+  width: 180px;
+  height: 135px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li a {
+  color: #666666;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li:hover a {
+  text-decoration: underline;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li .p_pay {
+  float: left;
+  padding-left: 20px;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li .p_pay span {
+  color: #f60;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hot .cont .hot_left .hot_left_bot ul li #a_buy {
+  float: right;
+  display: block;
+  background-color: #f7661f;
+  border: 1px solid #f7661f;
+  color: #fff;
+  padding: 0 10px;
+  margin: 10px 20px;
+  height: 26px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+.hot .cont .hot_right {
+  width: 230px;
+  height: 290px;
+  float: right;
+}
+
+.hot .cont .hot_right .news {
+  padding: 10px 0;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  height: 130px;
+  background: #f6f6f6;
+  margin-top: 10px;
+}
+
+.hot .cont .hot_right .news dt {
+  color: #666;
+  margin-bottom: 8px;
+  height: 28px;
+  padding: 0 10px 5px 10px;
+  border-bottom: 1px dashed #D9D9D9;
+}
+
+.hot .cont .hot_right .news dt h5 {
+  font: bolder 14px simusn;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.hot .cont .hot_right .news dt a {
+  font: 12px simsun;
+  float: right;
+  margin: 1px 10px 0 10px;
+  color: #666;
+}
+
+.hot .cont .hot_right .news dd {
+  font: 12px simusn;
+  margin-bottom: 6px;
+  height: 14px;
+  overflow: hidden;
+  clear: both;
+  padding: 0 10px;
+}
+
+.hot .cont .hot_right .news dd a {
+  color: #666;
+}
+
+.hot .cont .hot_right .news dd span {
+  width: 20px;
+  height: 9px;
+  display: inline-block;
+  overflow: hidden;
+  background: url("../img/sprite_v140425.png") 0 -1031px no-repeat;
+}
+
+.hot .cont .hot_right .hot_right_bot {
+  width: 230px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  background: #233C7B;
+}
+
+.hot .cont .hot_right .hot_right_bot .page {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.hot .cont .hot_right .hot_right_bot .page span {
+  font-size: 0;
+  width: 0px;
+  height: 0px;
+}
+
+.hot .cont .hot_right .hot_right_bot img {
+  width: 230px;
+  height: 130px;
+}
+
+.good_reputation {
+  margin-bottom: 20px;
+  height: 325px;
+}
+
+.good_reputation .good_top {
+  height: 38px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-right: none;
+  border-bottom: 3px solid #2565bd;
+  font-family: "microsoft yahei";
+  color: #f60;
+  border-bottom-color: #f60;
+}
+
+.good_reputation .good_top h2 {
+  float: left;
+}
+
+.good_reputation .good_top p {
+  height: 18px;
+  font-size: 14px;
+  float: left;
+  width: 1100px;
+  margin: 7px 0 0 10px;
+}
+
+.good_reputation .good_top p span {
+  float: right;
+  color: #666666;
+}
+
+.good_reputation .good_bot {
+  height: 280px;
+  border: 1px solid #ccc;
+}
+
+#interest {
+  margin-bottom: 20px;
+}
+
+#interest .cont {
+  height: 272px;
+}
+
+#interest .cont .interest_tab {
+  float: left;
+}
+
+#interest .cont .interest_right {
+  width: 240px;
+  height: 270px;
+  float: right;
+}
+
+#interest .cont .interest_right .page {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#interest .cont .interest_right .page span {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+}
+
+#haitao {
+  height: 525px;
+  margin-bottom: 20px;
+}
+
+#haitao:nth-child(2n) h2 {
+  color: #FF9D29;
+  border-bottom: 3px solid #FF9D29;
+}
