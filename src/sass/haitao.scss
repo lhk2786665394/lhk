@@ -1,3 +1,5 @@
+
+
 .haitao_box_left{
     width: 960px;
     
@@ -158,23 +160,23 @@
             
     }
 }
-.haitao_box_right #tab{border:1px solid #ddd;overflow:hidden;width:230px;float: right;height:512px;}
-.haitao_box_right #tab header h3{float: left;width: 48px;height: 30px;font-size: 12px;line-height: 30px;text-align:center;}
-.haitao_box_right #tab header{/*padding-bottom:2px;*/border-bottom:1px solid #ddd;overflow:hidden;}
-.haitao_box_right #tab header div{float:left;border-left:1px solid #ddd;border-right:1px solid #ddd; width: 60px;float: left;height: 30px;background:#F6F6F6;color:#ccc;line-height: 30px;text-align: center;font-size: 14px;}
-.haitao_box_right #tab #content div ul li{
+.haitao_box_right .tab1{border:1px solid #ddd;overflow:hidden;width:230px;float: right;height:512px;}
+.haitao_box_right .tab1 header h3{float: left;width: 48px;height: 30px;font-size: 12px;line-height: 30px;text-align:center;}
+.haitao_box_right .tab1 header{/*padding-bottom:2px;*/border-bottom:1px solid #ddd;overflow:hidden;}
+.haitao_box_right .tab1 header div{float:left;border-left:1px solid #ddd;border-right:1px solid #ddd; width: 60px;float: left;height: 30px;background:#F6F6F6;color:#ccc;line-height: 30px;text-align: center;font-size: 14px;}
+.haitao_box_right .tab1 .content1 div ul li{
                 padding:5px;
                 width: 230px;
                 height: 92px;
 
         }
-.haitao_box_right #tab #content div ul li a{
+.haitao_box_right .tab1 .content1 div ul li a{
             width: 110px;
             height: 60px;
             display: block;
             float: left;
         }
-.haitao_box_right #tab #content div ul li  a img{
+.haitao_box_right .tab1 .content1 div ul li  a img{
             width: 80px;
             height: 60px;
             display: block;
@@ -183,10 +185,10 @@
             float: left;
 
         }
-.haitao_box_right #tab #content div ul li  a:hover{
+.haitao_box_right .tab1 .content1 div ul li  a:hover{
             text-decoration: underline;
         }
-.haitao_box_right #tab #content div ul li p{
+.haitao_box_right .tab1 .content1 div ul li p{
             
                 font-size: 12px;
                 /*width: 100px;*/
@@ -194,7 +196,7 @@
                 /*margin: 4px 0 14px 0;*/
                 float: left;
             }
-.haitao_box_right #tab #content div ul li p a{
+.haitao_box_right .tab1 .content1 div ul li p a{
             display:block;
             height: 35px;
             overflow: hidden;
@@ -204,11 +206,11 @@
 
 
             }
-.haitao_box_right #tab #content div ul li .priceline{
+.haitao_box_right .tab1 .content1 div ul li .priceline{
                 color: #f60;
                 font-size: 14px;
                 font-weight: bold;
             }
-.haitao_box_right #tab .active{background-color:#fff;color:#FF6600;}
-.haitao_box_right #tab #content{/*min-height: 100px;*/overflow:hidden;    width: 238px;
+.haitao_box_right .tab .active{background-color:#fff;color:#FF6600;}
+.haitao_box_right .tab1 .content1{/*min-height: 100px;*/overflow:hidden;    width: 238px;
     padding: 10px 5px 0;}

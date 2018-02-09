@@ -18,7 +18,77 @@
   margin-top: 10px;
   width: 771px;
   height: 205px;
-  background: pink;
+  overflow: hidden;
+  position: relative;
+}
+
+.benner_left .benner_bot h3 {
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+.benner_left .benner_bot i {
+  background: url(../img/abtn130426.png) no-repeat;
+  display: block;
+  width: 9px;
+  height: 17px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -20000px;
+  top: 90px;
+}
+
+.benner_left .benner_bot .btnleft {
+  left: 12px;
+}
+
+.benner_left .benner_bot .btnright {
+  background-position: -9px -17px;
+  right: 12px;
+}
+
+.benner_left .benner_bot ul {
+  padding: 0 25px;
+  float: left;
+  overflow: hidden;
+}
+
+.benner_left .benner_bot ul li {
+  float: left;
+  padding: 2px 15px;
+  width: 180px;
+}
+
+.benner_left .benner_bot ul li img {
+  width: 144px;
+  height: 108px;
+}
+
+.benner_left .benner_bot ul li p .price {
+  color: #f60;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.benner_left .benner_bot ul li .img {
+  text-align: center;
+  height: 108px;
+  position: relative;
+}
+
+.benner_left .benner_bot ul li .title {
+  height: 35px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 4px 0;
+}
+
+.benner_left .benner_bot ul li .title a {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
 
 .benner_right {

@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-02 16:16:04
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 12:22:30
+* @Last Modified time: 2018-02-09 16:55:43
 */
 
 // 头部
@@ -55,6 +55,7 @@ jQuery(function($){
         height:205,
         imgs:['../img/shenghuo1.jpg','../img/shenghuo2.jpg']
      })
+
 });
 // 尾部
 jQuery(function($){
@@ -84,7 +85,7 @@ jQuery(function($){
             var $tab = $('.tab');
             var $tabItem = $('.tab div');
             var $content = $('.content div');
-            //隐藏除第一张以外的图片
+
             $content.not(':first').hide()
             //高亮显示第一个tab
             $tabItem.first().addClass('active')
@@ -95,7 +96,7 @@ jQuery(function($){
                 var idx = $(this).index();
                 $tabItem.eq(idx).addClass('active').siblings('').removeClass('active');
 
-                //显示对应的图片，隐藏其他图片
+
                 $content.eq(idx).stop(true,true).show().siblings().stop(true,true).hide() 
                     
                 })
@@ -104,29 +105,32 @@ jQuery(function($){
             })
 });
 
-//海淘区
-//右边tab
-// jQuery(function($){
+// 海淘区
+// 右边tab
+jQuery(function($){
      
-//         var $tab = $('#tab');
-//             var $tabItem = $('#tab div');
-//             var $content = $('#content div');
-//             //隐藏除第一张以外的图片
-//             $content.not(':first').hide()
-//             //高亮显示第一个tab
-//             $tabItem.first().addClass('active')
+            var $tab = $('.tab1');
+            var $tabItem = $('.tab1 div');
 
-//             $tab.on('mouseover','header div',function(){
-//                 console.log(this)
-//                 // $(this).eq().addClass('active')
-//                 var idx = $(this).index();
-//                 $tabItem.eq(idx).addClass('active').siblings('').removeClass('active');
+            var $content = $('.content1 div');
 
-//                 //显示对应的图片，隐藏其他图片
-//                 $content.eq(idx).stop(true,true).show().siblings().stop(true,true).hide() 
             
-//      })//载入远程 HTML 文件代码并插入页面中。
-// });
+            $content.not(':first').hide()
+            //高亮显示第一个tab
+            $tabItem.first().addClass('active')
+
+            $tab.on('mouseover','header div',function(){
+
+                // console.log(this)
+                // $(this).eq().addClass('active')
+                var idx = $(this).index();
+                $tabItem.eq(idx).addClass('active').siblings('').removeClass('active');
+
+                //显示对应的图片，隐藏其他图片
+                $content.eq(idx).stop(true,true).show().siblings().stop(true,true).hide() 
+            
+     })//载入远程 HTML 文件代码并插入页面中。
+});
 // 
 // 
 // 
@@ -153,7 +157,34 @@ jQuery(function($){
                                 console.log(data);
 
                                 //热卖区
-                                $('.hot_left_bot')
+                                //  // 海淘
+                                $('.qiangou').html(res.slice(15, 27).map(function(item){
+                                    
+                                     return`
+                                            <li  class="${item.id}"><a href="../html/detailPages.html?id=${item.id}"><img src="${item.img.split(",")[0]}"></a>
+                                                <p class="title"><a target="_blank" href="1">${item.name}</a></p>
+                                                <p class="priceline"> <span class="price">${item.price}</span></p>
+                                            </li>
+                                            `
+                                     }).join(''));
+                                $('.hot_left_bot ul').html(res.slice(13, 17).map(function(item){
+                                    // var imgurl=item.img.split(",");
+                                    // console.log(imgurl);
+                                     return`<li class="${item.id}">
+                                        <a href="../html/detailPages.html?id=${item.id}">
+                                        <img src="${item.img.split(",")[0]}" alt="">
+                                        </a><p><a href="../html/detailPages.html?id=${item.id}"></a><a href="../html/detailPages.html?id=${item.id}">${item.name}</a></p>
+                                        
+                                        <p class="p_pay">
+                                        <del>${item.price}</del><br>
+                                        <span>${item.price}</span>
+                                    </p>
+                                    <a href="../html/detailPages.html?id=${item.id}" id="a_buy">抢购</a> 
+                                    </li>
+
+                                     `  
+                                    
+                                }).join(''));
                                  // 海淘
                                 $haitao_box_bot.html(res.slice(0, 7).map(function(item){
                                     // var imgurl=item.img.split(",");
@@ -214,6 +245,44 @@ jQuery(function($){
                          </p>
                 </div>`
             }
+
+
+
+        // var btnleft =$('.btnleft');
+        // var btnright = $('.btnright');
+        // // var twoRigth =document.querySelector('.two_i');
+
+        // var benner_bot=$('.benner_bot')[0];
+        // let index = 0;
+        // let qiangou = $('.qiangou')[0];
+        // // let items = qiangou.querySelectorAll('li');
+        // let itemWidth = qiangou.clientWidth;
+        // benner_bot.style.width = qiangou.clientWidth*2 +'px';
+        // btnright.on('click',function(){
+        //     // var benner_bot=document.getElementsByClassName('top_ul')[0];
+            
+
+        //     index ++;
+        //         console.log(index);
+                
+        //         if (index>=2){
+        //             index=1;
+        //         }
+        //         let target = -itemWidth*index;
+                
+        //         animate(benner_bot,{left:target});
+        // });
+        // btnleft.on('click',function(){
+        //         // console.log(66666)
+        //         index --;
+        //         console.log(index);
+                
+        //         if (index<=0) {
+        //             index=0;
+        //         }
+        //         let target =-itemWidth*index;
+        //         animate(benner_bot,{left:target});
+        //      })
 
 });
 

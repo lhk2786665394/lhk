@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-06 15:26:09
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 22:33:30
+* @Last Modified time: 2018-02-09 14:24:57
 */
 jQuery(function($){
      $("#header").load('../html/login_header.html')
@@ -21,32 +21,27 @@ jQuery(function($){
 
         var car_list_cont = $('.car_list_cont')[0]
         var shopul = $('.shopul')[0];
-        console.log(shopul)
+        // console.log(shopul)
         var shoppingTable_right_bot=$('.shoppingTable_right_bot p a')[0];
         var shoppingTable_right_bot2=$('.shoppingTable_right_bot p .pirce')[1];
 
 
-        // var oSubPrice = shopul.nextElementSibling;
-
-        // var btnClear = document.getElementById('btnClear');
-
-        var goodslist = Cookie.get('goodslist');
-        console.log(goodslist);
-        if(goodslist.length===0){
-            goodslist = [];
-        }else{
-            goodslist = JSON.parse(goodslist);
-        }
 
         render();
-           function render(){
+var goodslist=JSON.parse(Cookie.get('goodslist'));
+    function render(){
 
-                var total = 0;
- 
-                shopul.innerHTML = goodslist.map(function(item){
-                // console.log(8797989);
+            var goodslist=JSON.parse(Cookie.get('goodslist'));
+
+            var total = 0;
+
+            if(goodslist.length===0){
+                shopul.innerHTML =`<li><h1>您的购物车还没有宝贝，快去添加吧！</h1></l1>`;
+            }else{
+            shopul.innerHTML = goodslist.map(function(item){
+            // console.log(8797989);
                 total += item.price*item.qty;
-                // console.log(666)
+            // console.log(666)
                 return `
                         <li data-id="${item.id}">
                             <input type="checkbox" id="checkbox"><div class="list_box">
@@ -58,8 +53,8 @@ jQuery(function($){
                             </span>
                              <div class="qty_box">
                                  <input id="qty" type="text" value="${item.qty}">
-                                 <i>+</i>
-                                 <i>-</i>
+                                 <i class="addi">+</i>
+                                 <i class="minusi">-</i>
                              </div>
                              <span class="pirce">
                                 <i>￥</i>
@@ -73,8 +68,9 @@ jQuery(function($){
 
                 }).join('')
                  
+                }
                 
-                console.log(666)
+                // console.log(666)
 
             // 添加到页面
             // shopul.innerHTML = '';
@@ -82,38 +78,76 @@ jQuery(function($){
 
 
             // 写入总价
+            // console.log(total);
             shoppingTable_right_bot.innerHTML =  total.toFixed(2);
             shoppingTable_right_bot2.innerHTML =  total.toFixed(2);
         }
-
-
-
-                
-       
         // 删除单个商品
         
-         $('.del').on('click',function(){
-                console.log(666)
-
-
-                var id = $(this).closest('li')
-                id.attr('data-id');
-                console.log(id);
-
+         $('body').on('click','.del',function(){
+                var id = $(this).closest('li');
+                var ID =id.attr('data-id');
+                console.log(id.attr('data-id'));
                 for(var i=0;i<goodslist.length;i++){
-                    if(goodslist[i].id === id){
+                    if(goodslist[i].id ===ID){
                         goodslist.splice(i,1);
                         break;
                     }
                 }
-               
                id.remove();
-                // 重新写入cookie
-                Cookie.set('goodslist',JSON.stringify(goodslist))+' ;path=/';
+               console.log(id.remove());
+                 document.cookie = 'goodslist='+JSON.stringify(goodslist)+' ;path=/';
+            render();
+         });
+        // 增加
+        $('body').on('click','.qty_box i',function(){
+            // console.log(this);
+            var nima=$(this).closest('li');
+            console.log(nima);
+            
+            if($(this).hasClass('addi')){
+                var Qty =$(this).siblings('#qty').val();
+                Qty=Qty*1+1;    
+                // console.log(Qty);
+                $(this).siblings('#qty').val(Qty);
 
-                
+                var aaaa=$(this).siblings('#qty').closest('li').attr('data-id');
 
-         })
+                for(var value of goodslist){
+                    if(value.id===aaaa){
+                        value.qty=Qty*1;
+                    }
+                }
+                 document.cookie = 'goodslist='+JSON.stringify(goodslist)+' ;path=/';
+                render(); 
+            }
+        });
+        // 减少
+        $('body').on('click','.qty_box i',function(){
+            // console.log(this);
+            var nima=$(this).closest('li');
+            console.log(nima);
+            
+            if($(this).hasClass('minusi')){
+                var Qty =$(this).siblings('#qty').val();
+                Qty=Qty*1-1;
+                Qty=Qty<1?1:Qty;    
+                // console.log(Qty);
+                $(this).siblings('#qty').val(Qty);
+
+                var aaaa=$(this).siblings('#qty').closest('li').attr('data-id');
+
+                for(var value of goodslist){
+                    if(value.id===aaaa){
+                        value.qty=Qty*1;
+                    }
+                }
+                 document.cookie = 'goodslist='+JSON.stringify(goodslist)+' ;path=/';
+                render(); 
+            }
+        });
+
+
             
         
   

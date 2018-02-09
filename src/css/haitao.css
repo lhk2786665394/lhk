@@ -134,7 +134,7 @@
   height: 205px;
 }
 
-.haitao_box_right #tab {
+.haitao_box_right .tab1 {
   border: 1px solid #ddd;
   overflow: hidden;
   width: 230px;
@@ -142,7 +142,7 @@
   height: 512px;
 }
 
-.haitao_box_right #tab header h3 {
+.haitao_box_right .tab1 header h3 {
   float: left;
   width: 48px;
   height: 30px;
@@ -151,13 +151,13 @@
   text-align: center;
 }
 
-.haitao_box_right #tab header {
+.haitao_box_right .tab1 header {
   /*padding-bottom:2px;*/
   border-bottom: 1px solid #ddd;
   overflow: hidden;
 }
 
-.haitao_box_right #tab header div {
+.haitao_box_right .tab1 header div {
   float: left;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -171,20 +171,20 @@
   font-size: 14px;
 }
 
-.haitao_box_right #tab #content div ul li {
+.haitao_box_right .tab1 .content1 div ul li {
   padding: 5px;
   width: 230px;
   height: 92px;
 }
 
-.haitao_box_right #tab #content div ul li a {
+.haitao_box_right .tab1 .content1 div ul li a {
   width: 110px;
   height: 60px;
   display: block;
   float: left;
 }
 
-.haitao_box_right #tab #content div ul li a img {
+.haitao_box_right .tab1 .content1 div ul li a img {
   width: 80px;
   height: 60px;
   display: block;
@@ -192,11 +192,11 @@
   float: left;
 }
 
-.haitao_box_right #tab #content div ul li a:hover {
+.haitao_box_right .tab1 .content1 div ul li a:hover {
   text-decoration: underline;
 }
 
-.haitao_box_right #tab #content div ul li p {
+.haitao_box_right .tab1 .content1 div ul li p {
   font-size: 12px;
   /*width: 100px;*/
   overflow: hidden;
@@ -204,7 +204,7 @@
   float: left;
 }
 
-.haitao_box_right #tab #content div ul li p a {
+.haitao_box_right .tab1 .content1 div ul li p a {
   display: block;
   height: 35px;
   overflow: hidden;
@@ -213,18 +213,18 @@
   text-decoration: none;
 }
 
-.haitao_box_right #tab #content div ul li .priceline {
+.haitao_box_right .tab1 .content1 div ul li .priceline {
   color: #f60;
   font-size: 14px;
   font-weight: bold;
 }
 
-.haitao_box_right #tab .active {
+.haitao_box_right .tab .active {
   background-color: #fff;
   color: #FF6600;
 }
 
-.haitao_box_right #tab #content {
+.haitao_box_right .tab1 .content1 {
   /*min-height: 100px;*/
   overflow: hidden;
   width: 238px;

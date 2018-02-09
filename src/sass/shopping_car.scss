@@ -71,14 +71,12 @@
                 font-size: 14px;
                 float: left;
                 dl{
-
                     dt{
                         text-indent:12px;
                         height: 32px;
                         font-weight: bold;
                         border:1px solid #ccc;
                         line-height: 32px;
-
                     }
                     .car_list_top{
                         border:1px solid #ccc;
@@ -89,8 +87,7 @@
 
                         }
                         .choose{
-                            width:60px;
-                            
+                            width:60px;                            
                             input{
                                 height: 13px;
                                 width: 13px;
@@ -115,11 +112,12 @@
                         }
                     }
                     .car_list_cont{
-                        // padding-top: 20px;
                         float: left;
                         ul{
                             float: left;
-
+                             h1{
+                                    text-align:center;   
+                                }
                             li{
                                 width:771px;
                                 padding-top: 20px;
@@ -127,48 +125,51 @@
                                 color:#666;
                                 float: left;
                                 border:1px solid #ccc;
+                                h1{
+                                    text-align:center;
+                                    font-size:18px;
+                                    line-height: 165px;   
+                                }
                                 #checkbox{
                                     margin:30px 20px 40px 30px;
                                     float: left;
                                 }
+
                                 .list_box{
                                     margin-bottom: 20px;
                                     width: 360px;
                                     float: left;
-                                    
-
                                    img{
-                                    width: 80px;
-                                    height: 60px;
-                                     float: left;
+                                        width: 80px;
+                                        height: 60px;
+                                        float: left;
                                    }
                                    .list_box_name{
                                         margin-left: 5px;
                                         // margin-bottom: 20px;
                                         width: 265px;
                                          float: left;
-                                         a{
+                                        a{
                                             color:#666;
                                             &:hover{
                                                 text-decoration: underline;
                                                 color:#F60;
 
                                             }
-                                         }
-                                   }
-                               }
+                                        }
+                                    }
+                                }
                                .pirce{
                                     display:inline-block;
                                     padding: 25px 15px 40px 10px;
                                     float: left;
                                     font-size:14px;
-                               }
+                                }
                                .qty_box{
                                     float: left;
                                     width: 70px;
                                     // height:30px;
                                     padding-top:20px;
-
                                         #qty{
                                             width: 40px;
                                             height: 32px;
@@ -189,9 +190,9 @@
                                            padding:0;
                                            text-align:center;
                                            float: left;
-
+                                           cursor:default;
                                         }
-                               }
+                                }
                                .chaozuo_box{
                                     display:inline-block;
                                     padding: 15px 15px 18px 5px;
@@ -200,13 +201,9 @@
                                            display:block;
                                            margin-bottom:5px;
                                            text-align:right;
-
                                     }
-                                    
-
-                               }
-                            }
-                            
+                                }
+                            }   
                         }
                     }
                 }
@@ -280,10 +277,8 @@
 
                 }
 
-            }
-            
+            } 
         }
-
     }
 }
 

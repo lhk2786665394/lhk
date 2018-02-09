@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-04 21:39:44
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 13:32:41
+* @Last Modified time: 2018-02-09 15:17:27
 */
 jQuery(function($){
      $("#header").load('../html/head.html')//载入远程 HTML 文件代码并插入页面中。
@@ -26,11 +26,10 @@ jQuery(function($){
 
             $list.on('mouseover','header div',function(){
                 console.log(this)
-                // $(this).eq().addClass('active')
+
                 var idx = $(this).index();
                 $listItem.eq(idx).addClass('active').siblings('').removeClass('active');
 
-                //显示对应的图片，隐藏其他图片
                 $content_right.eq(idx).stop(true,true).show().siblings().stop(true,true).hide() 
                     
                 
@@ -51,7 +50,7 @@ jQuery(function($){
              var $tab_left = $('.tab_left');
             var $tab_leftItem = $('.tab_left div');
             var $content = $('.content div');
-            //隐藏除第一张以外的图片
+
             $content.not(':first').hide()
             //高亮显示第一个tab
             $tab_leftItem.first().addClass('active')
@@ -63,7 +62,6 @@ jQuery(function($){
 
                 $tab_leftItem.eq(idx).addClass('active').siblings('').removeClass('active');
 
-                //显示对应的图片，隐藏其他图片
                 $content.eq(idx).stop(true,true).show().siblings().stop(true,true).hide() 
                     
                 
